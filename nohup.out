@@ -1,0 +1,1121 @@
+Watching for file changes with StatReloader
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/aditshsoft/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Unauthorized: /alternatedata_report/contact_tagging/
+[28/Apr/2020 04:22:54] "GET /alternatedata_report/contact_tagging/?custom_entity_input=%7B%27office%27:[%27maam%27,%27mam%27,%27sir%27],%27dsa1%27:[%27dsa%27,%27dst%27]%7D HTTP/1.1" 401 58
+Not Found: /
+[28/Apr/2020 04:24:09] "GET / HTTP/1.1" 404 2063
+Not Found: /favicon.ico
+[28/Apr/2020 04:24:10] "GET /favicon.ico HTTP/1.1" 404 2114
+[28/Apr/2020 04:24:14] "GET /admin HTTP/1.1" 301 0
+[28/Apr/2020 04:24:14] "GET /admin/ HTTP/1.1" 302 0
+[28/Apr/2020 04:24:15] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[28/Apr/2020 04:24:16] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[28/Apr/2020 04:24:16] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[28/Apr/2020 04:24:16] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+[28/Apr/2020 04:24:16] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[28/Apr/2020 04:24:17] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[28/Apr/2020 04:24:17] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[28/Apr/2020 04:24:49] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2078
+[28/Apr/2020 04:24:50] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[28/Apr/2020 04:25:07] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2078
+[28/Apr/2020 04:25:36] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2078
+[28/Apr/2020 04:26:00] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[28/Apr/2020 04:26:00] "GET /admin/ HTTP/1.1" 200 3736
+[28/Apr/2020 04:26:01] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[28/Apr/2020 04:26:01] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[28/Apr/2020 04:26:01] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[28/Apr/2020 04:26:06] "GET /admin/authtoken/token/ HTTP/1.1" 200 5109
+[28/Apr/2020 04:26:07] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6190
+[28/Apr/2020 04:26:07] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[28/Apr/2020 04:26:07] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[28/Apr/2020 04:26:07] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[28/Apr/2020 04:26:07] "GET /static/admin/js/core.js HTTP/1.1" 200 5723
+[28/Apr/2020 04:26:07] "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[28/Apr/2020 04:26:07] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[28/Apr/2020 04:26:07] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[28/Apr/2020 04:26:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+[28/Apr/2020 04:26:08] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[28/Apr/2020 04:26:09] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[28/Apr/2020 04:26:09] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[28/Apr/2020 04:26:11] "GET /admin/authtoken/token/abdb8b555c3d8ae1ceebbfc2efb0c2eaaca3641b/change/ HTTP/1.1" 200 4964
+[28/Apr/2020 04:26:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[28/Apr/2020 04:26:11] "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+[28/Apr/2020 04:26:11] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[28/Apr/2020 04:26:11] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[28/Apr/2020 04:26:11] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+Internal Server Error: /alternatedata_report/contact_tagging/
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/views.py", line 55, in get
+    data=obj.getjsonoutput(file_path,custom_entity_input)
+  File "/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/reports_module/contact_tagging.py", line 86, in getjsonoutput
+    data,extra=self.tagging_most_freq_keywords()
+  File "/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/reports_module/contact_tagging.py", line 23, in tagging_most_freq_keywords
+    words = nltk.tokenize.word_tokenize(string)
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/nltk/tokenize/__init__.py", line 144, in word_tokenize
+    sentences = [text] if preserve_line else sent_tokenize(text, language)
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/nltk/tokenize/__init__.py", line 105, in sent_tokenize
+    tokenizer = load('tokenizers/punkt/{0}.pickle'.format(language))
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/nltk/data.py", line 868, in load
+    opened_resource = _open(resource_url)
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/nltk/data.py", line 993, in _open
+    return find(path_, path + ['']).open()
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/nltk/data.py", line 701, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93mpunkt[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt/PY3/english.pickle[0m
+
+  Searched in:
+    - '/home/aditshsoft/nltk_data'
+    - '/home/aditshsoft/anaconda3/envs/dev_ai/nltk_data'
+    - '/home/aditshsoft/anaconda3/envs/dev_ai/share/nltk_data'
+    - '/home/aditshsoft/anaconda3/envs/dev_ai/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - ''
+**********************************************************************
+
+[28/Apr/2020 04:26:55] "GET /alternatedata_report/contact_tagging/?custom_entity_input=%7B%27office%27:[%27maam%27,%27mam%27,%27sir%27],%27dsa1%27:[%27dsa%27,%27dst%27]%7D HTTP/1.1" 500 19404
+Watching for file changes with StatReloader
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/aditshsoft/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Unauthorized: /alternatedata_report/bankmessage_report/
+[28/Apr/2020 05:42:29] "GET /alternatedata_report/bankmessage_report/ HTTP/1.1" 401 58
+Unauthorized: /alternatedata_report/bankmessage_report/
+[28/Apr/2020 05:47:48] "GET /alternatedata_report/bankmessage_report/ HTTP/1.1" 401 58
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.ensemble.forest module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.ensemble. Anything that cannot be imported from sklearn.ensemble is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.tree.tree module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.tree. Anything that cannot be imported from sklearn.tree is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator TfidfTransformer from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator TfidfVectorizer from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+[28/Apr/2020 05:48:44] "GET /alternatedata_report/bankmessage_report/ HTTP/1.1" 200 14301
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator TfidfTransformer from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator TfidfVectorizer from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+[28/Apr/2020 06:24:22] "GET /alternatedata_report/bankmessage_report/ HTTP/1.1" 200 14301
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator TfidfTransformer from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator TfidfVectorizer from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+[28/Apr/2020 07:10:03] "GET /alternatedata_report/bankmessage_report/ HTTP/1.1" 200 14301
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator TfidfTransformer from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator TfidfVectorizer from version 0.21.3 when using version 0.22.1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+[28/Apr/2020 07:32:22] "GET /alternatedata_report/bankmessage_report/ HTTP/1.1" 200 14301
+Not Found: /
+[16/May/2020 06:58:38] "GET / HTTP/1.1" 404 2058
+Not Found: /
+[16/May/2020 06:58:38] "OPTIONS / HTTP/1.1" 404 2062
+Not Found: /
+[16/May/2020 06:58:39] "POST / HTTP/1.1" 404 2059
+Not Found: /robots.txt
+[16/May/2020 06:58:41] "GET /robots.txt HTTP/1.1" 404 2106
+[16/May/2020 06:58:43] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x00')
+[16/May/2020 06:58:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[21/May/2020 10:04:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/May/2020 10:04:58] "  /*à     Cookie: mstshash=Administr" 400 -
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 100, in _get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/urls/resolvers.py", line 575, in resolve
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'alternatedata_api.urls' from '/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/urls.py'> (alternatedata_api:alternatedata_api) 'alternatedata_report/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 44, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 500, in technical_404_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_404.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/wsgiref/handlers.py", line 137, in run
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py", line 68, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/wsgi.py", line 133, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 75, in get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+[31/May/2020 05:57:36] "GET / HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 100, in _get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/urls/resolvers.py", line 575, in resolve
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'alternatedata_api.urls' from '/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/urls.py'> (alternatedata_api:alternatedata_api) 'alternatedata_report/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 44, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 500, in technical_404_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_404.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/wsgiref/handlers.py", line 137, in run
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py", line 68, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/wsgi.py", line 133, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 75, in get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+[31/May/2020 05:57:36] "OPTIONS / HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 100, in _get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/urls/resolvers.py", line 575, in resolve
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'alternatedata_api.urls' from '/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/urls.py'> (alternatedata_api:alternatedata_api) 'alternatedata_report/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 44, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 500, in technical_404_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_404.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/wsgiref/handlers.py", line 137, in run
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py", line 68, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/wsgi.py", line 133, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 75, in get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+[31/May/2020 05:57:36] "POST / HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 100, in _get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/urls/resolvers.py", line 575, in resolve
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'alternatedata_api.urls' from '/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/urls.py'> (alternatedata_api:alternatedata_api) 'alternatedata_report/'>]], 'path': 'robots.txt'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 44, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 500, in technical_404_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_404.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/wsgiref/handlers.py", line 137, in run
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py", line 68, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/wsgi.py", line 133, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 75, in get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+[31/May/2020 05:57:37] "GET /robots.txt HTTP/1.1" 500 59
+[31/May/2020 05:57:37] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x00\x98\x01\x00\x00\x94\x03\x03^ÓG9^V|Uù"¶')
+[31/May/2020 05:57:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 100, in _get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/urls/resolvers.py", line 575, in resolve
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'alternatedata_api.urls' from '/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/urls.py'> (alternatedata_api:alternatedata_api) 'alternatedata_report/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 44, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 500, in technical_404_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_404.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/wsgiref/handlers.py", line 137, in run
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py", line 68, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/wsgi.py", line 133, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 75, in get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+[02/Jun/2020 10:41:48] "GET / HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 100, in _get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/urls/resolvers.py", line 575, in resolve
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'alternatedata_api.urls' from '/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/urls.py'> (alternatedata_api:alternatedata_api) 'alternatedata_report/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 44, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 500, in technical_404_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_404.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/wsgiref/handlers.py", line 137, in run
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py", line 68, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/wsgi.py", line 133, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 75, in get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+[02/Jun/2020 10:41:48] "OPTIONS / HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 100, in _get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/urls/resolvers.py", line 575, in resolve
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'alternatedata_api.urls' from '/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/urls.py'> (alternatedata_api:alternatedata_api) 'alternatedata_report/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 44, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 500, in technical_404_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_404.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/wsgiref/handlers.py", line 137, in run
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py", line 68, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/wsgi.py", line 133, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 75, in get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+[02/Jun/2020 10:41:49] "POST / HTTP/1.1" 500 59
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 100, in _get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/urls/resolvers.py", line 575, in resolve
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'alternatedata_api.urls' from '/home/aditshsoft/development/APPS/CDM/alternatedata_analysis/robotic-banking-python-backend/adiloans/alternatedata_api/urls.py'> (alternatedata_api:alternatedata_api) 'alternatedata_report/'>]], 'path': 'robots.txt'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 44, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 500, in technical_404_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_404.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/utils/deprecation.py", line 94, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/wsgiref/handlers.py", line 137, in run
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py", line 68, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/wsgi.py", line 133, in __call__
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/base.py", line 75, in get_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 36, in inner
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/core/handlers/exception.py", line 125, in handle_uncaught_exception
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 94, in technical_500_response
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/debug.py", line 331, in get_traceback_html
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1203, in open
+  File "/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/pathlib.py", line 1058, in _opener
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aditshsoft/anaconda3/envs/dev_ai/lib/python3.7/site-packages/django/views/templates/technical_500.html'
+[02/Jun/2020 10:41:49] "GET /robots.txt HTTP/1.1" 500 59
+[02/Jun/2020 10:41:50] code 400, message Bad request version ("X0zD\x8e%¬Cì\x14Ë\x06&\x8cK¥\x00\x00<À,À+À0À/\x00\x9f\x00\x9eÀ$À#À(À'À")
+[02/Jun/2020 10:41:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[10/Jun/2020 04:32:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[10/Jun/2020 04:32:46] "  /*à     Cookie: mstshash=Administr" 400 -
